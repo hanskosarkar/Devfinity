@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: #262626;
+    padding: 2px;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    /* max-width: 1250px; */
+    margin: auto;
+}
+
+/* nav bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    background: rgb(255, 253, 255);
+    padding: 10px;
+    border-bottom: rgb(234, 230, 230) solid 1.5px;
+}
+
+.logo {
+    padding-left: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    width: 70%;
+}
+
+.nav-links{
+    width: 30%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+li {
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+li:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    text-underline-position: auto;
+}
+
+/* what we do */
+.whatWeDo {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    /* border: 1px solid rgb(234, 230, 229); */
+    padding: 0.5rem;
+    background: rgb(253, 251, 251);
+    border-radius: 4px;
+}
+
+/* cards redirecting to you tube videos */
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+/* main conatainer */
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    justify-content: flex-start;
+    /* background: rgb(236, 238, 236); */
+    background: rgb(244, 244, 244);
+    padding: 1rem;
+}
+
+.videoResponsive {
+    border: 1px solid rgb(255, 255, 255);
+    /* background: rgb(235, 236, 235); */
+}
+
+.info {
+    margin-left: 1.5rem;
+    width: 825px;
+    text-align: justify;
+    margin-top: 2.5rem;
+    padding: 8px;
+    border: 1px solid rgb(253, 252, 252);
+    border-radius: 4px;
+    /* background: rgb(238, 242, 238); */
+}
+
+.info>h1 {
+    text-align: left;
+    font-size: 2rem;
+}
+
+form {
+    border: 5px solid #f1f1f1;
+    width: 40%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 4px;
+}
+form h1{
+    text-align: center;
+    padding: 4px;
+}
+input[type=text],
+input[type=email] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.formContainer {
+    text-align: left;
+    margin: 24px 50px 12px;
+    border-radius: 14px;
+}
+
+.formContent {
+    padding: 16px 0;
+    text-align: left;
+}
+
+button {
+    background-color: #8ebf42;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+footer{
+    margin-top: 2rem;
+    background: #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socials, .findUs{
+    padding: 1.5rem;
+}
