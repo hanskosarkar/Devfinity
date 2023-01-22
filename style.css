@@ -122,12 +122,17 @@ main {
   width: 500px;
   text-align: justify;
 }
+.instagram,
+.linkedin {
+  display: flex;
+  gap: 5px;
+}
 
 form {
   border: 5px solid #f1f1f1;
   width: 40%;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 10rem;
   border-radius: 4px;
 }
 form h1 {
